@@ -45,7 +45,7 @@
     "max-length": 128
   },
   "clock": {
-    "format": "{:%c}",
+    "format": "{:%H:%M %D}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "custom/weather": {
