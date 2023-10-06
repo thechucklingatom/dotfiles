@@ -3,7 +3,7 @@
   "height": 24,
   "spacing": 4,
   "modules-left": [
-    "wlr/workspaces",
+    "hyprland/workspaces",
     "wlr/taskbar"
   ],
   "modules-center": [
