@@ -212,6 +212,8 @@ exec --no-startup-id slack
 #exec_always --no-startup-id ff-theme-util
 #exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id $HOME/.config/polybar/i3wmthemer_bar_launch.sh
+# Remap Caps Lock to CTRL
+exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
 
 # Theme colors
 client.focused          #272827 #272827 #657b83 #272827 #272827
@@ -299,3 +301,4 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
